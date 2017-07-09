@@ -1,0 +1,61 @@
+/* Hexa paleta colores
+amarillo #FFB820
+naranja #FF493C
+azul #242D3C*/
+#mainIndex{
+  background-image: url(../assets/edufin.jpg);
+    background-size: cover;
+};
+
+/*Estilos del tablero*/
+#tablero {
+    width: 680px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    background: ##FF493C;
+    margin-left: 2vw;
+}
+
+#tablero div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform ease .5s;
+    margin: 10px;
+    border: 3px solid #fff;
+    background-image: url(../assets/edufin-circulo.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#tablero div:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.imagenCarta {
+    display: none;
+    width: 100%;
+}
+
+.open img {
+    display: inline-block;
+}
+
+.cartasConImagen {
+    width: 100%;
+}
+
+.titulo {
+    font-size: 3rem;
+}
+
+#contenedorColorExtra>div {
+    background-color: #1b6f83;
+}
+/*servicios*/
+.modulos{
+    margin: 3%;
+}
